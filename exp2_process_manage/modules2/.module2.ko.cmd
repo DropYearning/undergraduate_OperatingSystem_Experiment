@@ -1,0 +1,1 @@
+cmd_/home/zhou/modules2/module2.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/zhou/modules2/module2.ko /home/zhou/modules2/module2.o /home/zhou/modules2/module2.mod.o ;  true
